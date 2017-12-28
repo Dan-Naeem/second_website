@@ -1,0 +1,21 @@
+body{
+  font-family: arial;
+}
+
+img{}
+
+ul{}
+
+.nav{
+  background-color: grey;
+}
+
+.container{}
+
+.logo{}
+
+.menu{
+  color: white;
+}
+
+.menu > li{}
