@@ -2,7 +2,17 @@ body{
   margin:0;
 }
 
-h1{
+*{
+  -webkit-box-sizing; border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, h3, p{
   margin: 0;
 }
 
@@ -46,11 +56,23 @@ ul{
   padding: 10 10 0 10;
 }
 
-.header-title{
-}
-
 .title-wrapper{
   padding-top: 100px;
   text-align: center;
   width: 100%;
+}
+
+.header-title{}
+
+.header-subtitle{}
+
+.intro{
+  float: left;
+  padding-top: 40px;
+  width: 50%;
+  margin: auto;
+}
+
+.works{
+  height: 580px;
 }
