@@ -26,9 +26,10 @@ ul{}
 
 header{
   background-image: url('../images/header.jpg');
+  background-position: center center;
+  background-size: cover;
   height: 375px;
   width: 100%;
-  background-position: center center;
 }
 
 .title-wrapper{
@@ -109,6 +110,19 @@ header{
 
 .works{
   background-color: darkslategrey;
-  padding-top: 20px;
-  padding-bottom: 10px;
+}
+
+.grey2{
+  color: maroon;
+}
+
+.testimonials{
+  background-color: darkgoldenrod;
+  height:auto;
+  padding-bottom: 20px;
+
+}
+.testimonials p {
+  font-size: large;
+  line-height: normal;
 }
