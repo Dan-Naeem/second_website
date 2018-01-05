@@ -6,6 +6,10 @@ body{
   color: white;
 }
 
+.slategrey{
+  color: darkslategrey;
+}
+
 img{}
 
 ul{}
@@ -125,4 +129,18 @@ header{
 .testimonials p {
   font-size: large;
   line-height: normal;
+}
+
+.map{
+  background-image: url(../images/nyc_map.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain,;
+  height: 500px;
+}
+
+.map p{
+  color: maroon;
+  font-size: x-large;
+  font-weight: bold
 }
