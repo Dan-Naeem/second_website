@@ -1,146 +1,159 @@
-body{
-  font-family: arial;
+body {
+    font-family: arial;
 }
 
-.white{
-  color: white;
+.white {
+    color: white;
 }
 
-.slategrey{
-  color: darkslategrey;
+.slategrey {
+    color: darkslategrey;
 }
 
-img{}
+img {}
 
-ul{}
+ul {}
 
-.nav{
-  background-color: darkred;
+.nav {
+    background-color: darkred;
 }
 
-.container{}
+.container {}
 
-.logo{}
+.logo {}
 
-.menu{
-  color: white;
+.menu {
+    color: white;
 }
 
-.menu > li{}
+.menu > li {}
 
-header{
-  background-image: url('../images/header.jpg');
-  background-position: center center;
-  background-size: cover;
-  height: 375px;
-  width: 100%;
+header {
+    background-image: url('../images/header.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 375px;
+    width: 100%;
 }
 
-.title-wrapper{
-  text-transform: uppercase;;
+.title-wrapper {
+    text-transform: uppercase;
+    ;
 }
 
-.header-title{
-  color: goldenrod;
-  font-size: 65px;
-  font-weight: bold;
-  margin: auto;
-  width: 750px;
-}
-    
-.header-subtitle{
-  background-color: #ffcc66;
-  color: maroon;
-  font-size: 40px;
-  font-weight: 100;
-  margin: 50px auto 0 auto;
-  padding: 0;
-  width: 600px;
+.header-title {
+    color: goldenrod;
+    font-size: 65px;
+    font-weight: bold;
+    margin: auto;
+    width: 750px;
 }
 
-.call2action{
-  background-color: darkred;
-  height: 170px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.header-subtitle {
+    background-color: #ffcc66;
+    color: maroon;
+    font-size: 40px;
+    font-weight: 100;
+    margin: 50px auto 0 auto;
+    padding: 0;
+    width: 600px;
 }
 
-.section-title{
-  font-size: 30px;
-  font-weight: 100
-  text-transform: uppercase;
+.call2action {
+    background-color: darkred;
+    height: 170px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 100 text-transform: uppercase;
 
 }
 
-.intro > p{
-  color: white;
+.intro > p {
+    color: white;
 }
 
-.clickButton{
-  color: white ;
-  border: 5px solid white;
-  font-size: 30px;
-  padding: 10px 30px;
-  text-transform: uppercase;
+.clickButton {
+    color: white;
+    border: 5px solid white;
+    font-size: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
 }
 
-.intro{
-  text-align: center;
+.intro {
+    text-align: center;
 }
 
-.right{
-  padding-top: 60px;
-  text-align: center;
+.right {
+    padding-top: 60px;
+    text-align: center;
 }
 
-.intro p{
-  color: white ;
-  font-size: 25px;
-  line-height: 30px;
-  margin-top: 10px;
+.intro p {
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 10px;
 }
 
-.column{
-  float: left;
-  text-align: center;
-  width: 50%;
+.column {
+    float: left;
+    text-align: center;
+    width: 50%;
 }
 
-.column img{
-  max-width: 80%;
-  margin:auto;
+.column img {
+    max-width: 80%;
+    margin: auto;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -mozilla-transform: scale(0.7);
+    -o-transform: scale(0.7);
 }
 
-.works{
-  background-color: darkslategrey;
+.column img:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -mozilla-transform: scale(1);
+    -o-transform: scale(1);
+    transition: 0.3s all ease-in-out 0s;
 }
 
-.grey2{
-  color: maroon;
+.works {
+    background-color: darkslategrey;
 }
 
-.testimonials{
-  background-color: darkgoldenrod;
-  height:auto;
-  padding-bottom: 20px;
+.grey2 {
+    color: maroon;
+}
+
+.testimonials {
+    background-color: darkgoldenrod;
+    height: auto;
+    padding-bottom: 20px;
 
 }
+
 .testimonials p {
-  font-size: large;
-  line-height: normal;
+    font-size: large;
+    line-height: normal;
 }
 
-.map{
-  background-image: url(../images/nyc_map.jpg);
-  background-position: center;
-  background-repeat: repeat;
-  background-size: contain,;
-  height: 500px;
+.map {
+    background-image: url(../images/nyc_map.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain, ;
+    height: 500px;
 }
 
-.map p{
-  color: maroon;
-  font-size: x-large;
-  font-weight: bold
+.map p {
+    color: maroon;
+    font-size: x-large;
+    font-weight: bold
 }
