@@ -108,20 +108,29 @@ header {
 }
 
 .column img {
-    max-width: 80%;
     margin: auto;
+    max-width: 80%;
+    opacity: 0.5;
     transform: scale(0.7);
     -webkit-transform: scale(0.7);
-    -mozilla-transform: scale(0.7);
+    -moz-transform: scale(0.7);
     -o-transform: scale(0.7);
+    transition: 0.3s all ease-in-out 0s;
+    -webkit-transition: 0.3s all ease-in-out 0s;
+    -moz-transition: 0.3s all ease-in-out 0s;
+    -o-transition: 0.3s all ease-in-out 0s;
 }
 
 .column img:hover {
+    opacity: 1.0;
     transform: scale(1);
     -webkit-transform: scale(1);
-    -mozilla-transform: scale(1);
+    -moz-transform: scale(1);
     -o-transform: scale(1);
     transition: 0.3s all ease-in-out 0s;
+    -webkit-transition: 0.3s all ease-in-out 0s;
+    -moz-transition: 0.3s all ease-in-out 0s;
+    -o-transition: 0.3s all ease-in-out 0s;
 }
 
 .works {
