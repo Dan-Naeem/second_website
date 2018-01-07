@@ -28,6 +28,10 @@ ul {}
 
 .menu > li {}
 
+.menu li:hover {
+    color: goldenrod;
+}
+
 header {
     background-image: url('../images/header.jpg');
     background-position: center center;
@@ -85,6 +89,10 @@ header {
     text-transform: uppercase;
 }
 
+.clickButton:hover {
+    color: goldenrod;
+}
+
 .intro {
     text-align: center;
 }
@@ -92,6 +100,8 @@ header {
 .right {
     padding-top: 60px;
     text-align: center;
+}
+
 }
 
 .intro p {
