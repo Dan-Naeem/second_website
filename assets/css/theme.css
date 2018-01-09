@@ -176,3 +176,16 @@ header {
     font-size: x-large;
     font-weight: bold
 }
+
+footer {
+    background-color: darkgoldenrod;
+}
+
+.outro {
+    padding-top: 20px;
+}
+
+.outro p {
+    color: black;
+    font-size: 22px;
+}

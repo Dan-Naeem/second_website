@@ -63,10 +63,10 @@ ul {
     float: right;
     font-size: 20px;
     padding-top: 125px;
-    width: auto;
+    width: 300px;
 }
 
-.menu > li {
+.menu li {
     display: inline-block;
     padding: 10 10 10 10;
 }
@@ -91,4 +91,17 @@ ul {
 .works {
     height: 600px;
     padding-top: 20;
+}
+
+footer {
+    height: 60px;
+}
+
+.outro {
+    margin: auto;
+    max-width: 960px;
+}
+
+.outro p {
+    text-align: center;
 }
