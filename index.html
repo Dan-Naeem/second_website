@@ -11,6 +11,8 @@
     <link href="assets/css/layout.css" rel="stylesheet" />
     <link href="assets/css/theme.css" rel="stylesheet" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -88,6 +90,12 @@
             <p>Dan Naeem</p>
         </div>
     </footer>
+
+    <script>
+        $(".header-subtitle").on("click", function() {
+            $(".call2action").slideToggle();
+        });
+    </script>
 </body>
     </html>
 </DOCTYPE>
