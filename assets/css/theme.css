@@ -2,8 +2,8 @@ body {
     font-family: arial;
 }
 
-.white {
-    color: white;
+.maroon {
+    color: maroon;
 }
 
 .slategrey {
@@ -15,7 +15,7 @@ img {}
 ul {}
 
 .nav {
-    background-color: darkred;
+    background-color: maroon;
 }
 
 .container {}
@@ -65,8 +65,8 @@ header {
 }
 
 .call2action {
-    background-color: darkred;
-    height: 170px;
+    background-color: darkgoldenrod;
+    height: 160px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -74,17 +74,20 @@ header {
 
 .section-title {
     font-size: 30px;
-    font-weight: 100 text-transform: uppercase;
+    font-weight: 100;
+    text-transform: uppercase;
 
 }
 
-.intro > p {
-    color: white;
+.intro p {
+    color: maroon;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .clickButton {
-    color: white;
-    border: 5px solid white;
+    color: maroon;
+    border: 5px solid maroon;
     font-size: 30px;
     padding: 10px 30px;
     text-transform: uppercase;
@@ -101,15 +104,6 @@ header {
 .right {
     padding-top: 60px;
     text-align: center;
-}
-
-}
-
-.intro p {
-    color: white;
-    font-size: 25px;
-    line-height: 30px;
-    margin-top: 10px;
 }
 
 .column {
@@ -191,7 +185,7 @@ header {
 }
 
 footer {
-    background-color: darkgoldenrod;
+    background-color: maroon;
 }
 
 .outro {
@@ -199,6 +193,7 @@ footer {
 }
 
 .outro p {
-    color: black;
-    font-size: 22px;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
 }

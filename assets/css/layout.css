@@ -83,7 +83,7 @@ ul {
 
 .intro {
     float: left;
-    padding-top: 40px;
+    padding-top: 28px;
     width: 50%;
     margin: auto;
 }
@@ -94,7 +94,7 @@ ul {
 }
 
 footer {
-    height: 60px;
+    height: 80px;
 }
 
 .outro {
