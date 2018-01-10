@@ -144,6 +144,18 @@ header {
     -o-transition: 0.3s all ease-in-out 0s;
 }
 
+.column img.bigger {
+    opacity: 1.0;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transition: 0.3s all ease-in-out 0s;
+    -webkit-transition: 0.3s all ease-in-out 0s;
+    -moz-transition: 0.3s all ease-in-out 0s;
+    -o-transition: 0.3s all ease-in-out 0s;
+}
+
 .works {
     background-color: darkslategrey;
 }

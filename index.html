@@ -45,7 +45,7 @@
                 </p>
             </div>
             <div class="intro right">
-                <a href="/" class="clickButton">CLICK HERE</a>
+                <a href="#" class="clickButton">CLICK HERE</a>
             </div>
         </div>
 
@@ -94,6 +94,11 @@
     <script>
         $(".header-subtitle").on("click", function() {
             $(".call2action").slideToggle();
+        });
+
+        $(".clickButton").on("click", function(e) {
+            e.preventDefault();
+            $(".column img").toggleClass("bigger");
         });
     </script>
 </body>
