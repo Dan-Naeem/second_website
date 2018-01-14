@@ -1,0 +1,40 @@
+body {
+    font-family: arial;
+}
+
+.top {
+    background-color: maroon;
+}
+
+.top h1 {
+    color: darkgoldenrod;
+    font-size: 50px;
+}
+
+.backbutton {
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+.backbutton a {
+    border: 5px solid darkgoldenrod;
+    padding: 10 20 10 20;
+}
+
+.info {
+    background-color: darkslategrey;
+    color: lavenderblush;
+}
+
+.bottom {
+    background-color: maroon;
+}
+
+.signature {
+    font-size: 30px;
+}
+
+.signature p {
+    color: darkgoldenrod;
+    font-family: cursive;
+}
