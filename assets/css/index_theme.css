@@ -26,7 +26,7 @@ ul {}
     color: white;
 }
 
-.menu > li {}
+.menu li {}
 
 .menu li:hover {
     color: goldenrod;
@@ -193,7 +193,7 @@ footer {
 }
 
 .outro p {
-    color: white;
+    color: darkgoldenrod;
     font-family: cursive;
     font-size: 30px;
 }
